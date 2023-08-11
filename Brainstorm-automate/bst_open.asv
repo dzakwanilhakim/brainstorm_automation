@@ -1,0 +1,35 @@
+%% Important command
+% Quit Brainstorm
+% >brainstorm stop      
+% Delete existing protocol
+% >gui_brainstorm('DeleteProtocol', ProtocolName);
+% Get info of current protocol
+% >bst_get('ProtocolInfo')
+% further information https://neuroimage.usc.edu/brainstorm/Tutorials/Scripting
+
+%% 0. Preparing
+ProtocolName = 'ITDRI'; % Masukkan nama protocol
+UseDefaultAnat = 1; % 1: use protocol's default anatomy, 0: else
+UseDefaultChannel = 0; % 0: use one channel per acquisition 
+%BrainstormDbDir = 'D:\1-LOCAL STORAGE\Brainstorm_DB'; % Path to a Brainstorm database (= a folder that contains one or more Brainstorm protocols)
+
+%% 1. Start BST
+if ~brainstorm('status')
+    brainstorm nogui
+end
+% 1.1 Protocol
+iProtocol = bst_get('Protocol', ProtocolName); % Get the protocol index
+if isempty(iProtocol) % check if the protocol is available
+    gui_brainstorm('CreateProtocol', ProtocolName, UseDefaultAnat, UseDefaultChannel); % Create protocol
+    fprintf('Subject %s created.\n', currentSubject);
+end
+gui_brainstorm('SetCurrentProtocol', iProtocol); % Select the current procotol
+% 1.2 Subject
+
+
+
+
+% Quit Brainstorm
+%brainstorm stop      
+% Delete existing protocol
+%gui_brainstorm('DeleteProtocol', ProtocolName);
