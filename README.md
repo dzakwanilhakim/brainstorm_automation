@@ -1,4 +1,4 @@
-**Brainstorm Automation**
+**Brainstorm Automation (IN PROGRESS)** 
 
 there is 2 main folder, there are:
 1. Group Analysis
