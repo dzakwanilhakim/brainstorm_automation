@@ -10,7 +10,4 @@ the program is used to extract each minimum p value in each wave type in each ex
 Each program are independent, so can be runned independently 
 
 Brainstorm Version: 3.230810 (10-Aug-2023)
-
-
-
 MATLAB Version: R2022b
