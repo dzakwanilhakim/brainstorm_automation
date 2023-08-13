@@ -6,3 +6,8 @@ there is main_brainstorm_automation.m file for group analysis. The pipeline star
 
 2. PValue Extraction
 the program is used to extract each minimum p value in each wave type in each exported batch TimeFreq. 
+
+Each program are independent, so can be runned independently 
+
+Brainstorm Version: 3.230810 (10-Aug-2023)
+MATLAB Version: R2022b
