@@ -1,13 +1,17 @@
-**Brainstorm Automation (IN PROGRESS)** 
+**ANI1 Brainstorm Group Analysis** 
 
-there is 2 main folder, there are:
-1. Group Analysis:
-   there is **main_brainstorm_automation.m** file for group analysis. The pipeline start from creating protocol, creating subject, import file (.set format from EEGLAB), Timefreq analysis, Averaging, and Significance Test. The program will run automatically with just one click.
+THe program include Create new protocol, subjects, import .set data, timefreq analysis, and domain average. 
 
-3. PValue Extraction:
-   the program is used to extract each minimum p value in each wave type in each exported batch TimeFreq. 
+how to run program?
+1. run progam
+2. input the protocol name
+3. input directory
+4. the program will be running from create new protocol to domain averaging
 
-Each program are independent, so can be runned independently 
+not finished yet:
+1. averaging group analysis
+2. permutation test
+3. extract pvalue and export 2d disc image
 
 Brainstorm Version: 3.230810 (10-Aug-2023)
 MATLAB Version: R2022b
