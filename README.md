@@ -4,7 +4,7 @@ THe program include Create new protocol, subjects, import .set data, timefreq an
 
 how to run program?
 1. run brainstorm GUI
-2. run 
+2. run BST_ANI1_main.m
 2. input the protocol name
 3. input directory
 4. the program will be running from create new protocol to domain averaging
