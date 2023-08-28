@@ -1,4 +1,4 @@
-**ANI1 Brainstorm Group Analysis** 
+**Brainstorm Automation - ANI1 Group Analysis** 
 
 THe program include Create new protocol, subjects, import .set data, timefreq analysis, and domain average. 
 
